@@ -10,4 +10,5 @@ app.get('/', function(req, res){
 
 app.listen(app.get('port'), function(){
   console.log('express started on port 3000, press CTRL-C to terminate');
-})
+});
+module.exports = app;
