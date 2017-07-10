@@ -167,11 +167,40 @@ Should be thought of as Width x Height
   text-indent: 25px;
 }
 
+/* Work section */
 
+#work {
+  background-color: #294261;
+  color: white;
+}
 
+/* Skills section */
 
+#skills {
+  background-color: #294261;
+  color: white;
+}
 
+/* Volunteering section */
 
+#volunteering {
+  background-color: #294261;
+  color: white;
+}
+
+/* Other section */
+
+#other {
+  background-color: #294261;
+  color: white;
+}
+
+/* Contact section */
+
+#contact {
+  background-color: #294261;
+  color: white;
+}
 
 
 
