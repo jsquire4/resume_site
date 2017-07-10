@@ -1,0 +1,187 @@
+body {
+  background-color: #61293b;
+}
+
+nav {
+  background-color: #270711; 
+}
+
+.nav-wrapper {
+  width: 100%;
+}
+
+.brand-logo {
+  margin-left: 5%;
+}
+
+.container {
+  width: 80%;
+  max-width: 1400px;
+}
+
+.hero-main {
+  width: 100%;
+  background-color: #292961;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.pic-supertext {
+  margin: 0;
+}
+
+.pic-hero {
+  background-image: url("/images/hero_me.jpg");
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 80%;
+}
+
+.pic-supertext-area {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.pic-supertext-area > h2 {
+  font-size: 7em;
+  display: inline;
+}
+
+.pic-supertext-area > h6 {
+  font-size: 24px;
+  font-style: italic;
+  text-align: right;
+  display: inline;
+}
+
+/* Reset all text margins redifine as needed */
+
+.body-content h1,
+.body-content h2,
+.body-content h3,
+.body-content h4,
+.body-content h5,
+.body-content h6,
+.body-content p {
+  margin: 0; 
+}
+
+.section-group {
+  margin: 25px 0 0 0;
+  padding: 10px 10px 20px 10px;
+}
+
+/* Trying to maintain a certain
+look by sizing divs proportionately
+and using css to show the image */
+
+/* Messing with some dementions not sure if
+I should use pixels, or some percentage of a div.
+Should be thought of as Width x Height
+*/
+
+.img-box-2x3 {
+  width: 250px;
+  height: 300px;
+  background-color: white;
+}
+
+.img-box-3x2 {
+  width: 300px;
+  height: 200px;
+  background-color: white;
+}
+
+
+.call-to-action {
+  margin: 0 auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 462px;
+}
+
+.call-to-action a {
+  padding: 0;
+  width: 0;
+  height: 0;
+  line-height: 0;
+
+  margin: 15px 0 0 0;
+  padding: 0 10px 0 10px;
+  height: 45px;
+  line-height: 45px;
+  width: 220px;
+}
+
+.call-to-action .go-contact {
+
+}
+
+.call-to-action .resume-download {
+
+}
+
+
+
+/* Use section id before class name
+  to avoid id and class overload
+*/
+
+/* Summary section */
+#summary {
+  background-color: #295c61;
+  color: white;
+}
+
+#summary .section-header {
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+#summary .section-content-container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#summary .section-content {
+  width: initial;
+  margin-left: 25px;
+  margin-bottom: 20px;
+}
+
+
+#summary .img-box-2x3 {
+  background-image: url("/images/summary_me.jpg");
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+}
+
+#summary .section-text {
+  text-indent: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
